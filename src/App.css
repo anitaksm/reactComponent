@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+body {
+  width:50%;
+  margin:auto;
+  overflow: hidden;
+  padding-top: 150px;
+  
+}
+
+
+input {
+  border-color: rgb(127, 87, 236);
+  border-radius: 5px;
+  width:  250px;
+  height: 35px;
+  color: rgb(116, 112, 112);
+  font-family: Arial; 
+}
+
+
+button {
+  background-color:rgb(127, 87, 236) ;
+  border-color: rgb(127, 87, 236);
+  border-radius: 5px;
+  border-style: solid;
+  width: 35px;
+  height: 35px;
+  display: block;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+
+span {
+ 
+  font-size: 30px;
+  text-align: center;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
